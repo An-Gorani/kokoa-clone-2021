@@ -52,10 +52,15 @@
   animation: hideSplashScreen 0.4s ease-in-out forwards;
   animation-delay: 1s;
 }
+
+.splash-container {
+  position: relative;
+}
+
 .gorani_p_img img {
-  height: 15%;
-  width: 15%;
+  height: 100%;
+  width: 100%;
   position: absolute;
-  top: 270px;
-  left: 260px;
+  top: -100px;
+  left: 10px;
 }
